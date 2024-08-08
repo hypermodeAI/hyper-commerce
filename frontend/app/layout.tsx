@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "./components/header";
+import Footer from "./components/footer";
 
 export const metadata: Metadata = {
   title: "Hypermode Commerce",
@@ -17,6 +18,7 @@ export default function RootLayout({
       <body className="bg-stone-900 text-white my-8 space-y-8">
         <Header />
         <div>{children}</div>
+        <Footer />
       </body>
     </html>
   );

@@ -14,7 +14,7 @@ export default function Logo() {
           className="fill-foreground"
           viewBox="0 0 130 124"
         >
-          <g clip-path="url(#a)">
+          <g clipPath="url(#a)">
             <path
               fill="#fff"
               d="M90.2 0 76 55.5H39.5L53.7 0H14.2L0 55.5h32.3l-16.7 65.8 60.3-65.4-17.2 67.2h39.5L129.7 0z"
